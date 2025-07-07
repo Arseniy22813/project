@@ -1,0 +1,7 @@
+.back_photo{
+    background-image: url("../img/back_photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 811px;
+}
