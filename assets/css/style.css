@@ -1,7 +1,35 @@
-.back_photo{
+body{
+    margin: 0;
+}
+
+.backphoto{
     background-image: url("../img/back_photo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 811px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 166px 121px 164px;
+    padding: 24px 0 0 0;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 8px;
+    font-size: 50px;
+    text-align: center;
 }
