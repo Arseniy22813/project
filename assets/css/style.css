@@ -1,5 +1,15 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    color: #FFFFFF;
 }
 
 .backphoto{
@@ -22,6 +32,7 @@ body{
     font-weight: bold;
     font-size: 25px;
     margin: 0;
+
 }
 
 .circle{
@@ -30,6 +41,41 @@ body{
     background-color: white;
     border-radius: 50%;
     line-height: 8px;
-    font-size: 50px;
+    font-size: 4ch;
     text-align: center;
+}
+
+.maintext1{
+    margin: 0 0 211px 166px;
+}
+
+.text1{
+    margin: 0 0 22px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text2{
+    margin: 0 0 24px 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text3{
+    margin: 0 35px 45px 0;
+    font-size: 16px;
+}
+
+button{
+    text-align: left;
+    background-color: transparent;
+    color: #FFD723;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color: white;
 }
