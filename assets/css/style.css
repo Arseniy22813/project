@@ -67,6 +67,7 @@ header{
 }
 
 .btn1{
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     background-color: transparent;
     color: #D4D6D4;
@@ -119,6 +120,7 @@ header{
 }
 
 .btn2{
+    font-family: 'Poppins', sans-serif;
     background-color: transparent;
     color: #303030;
     border: none;
@@ -149,6 +151,7 @@ header{
 }
 
 .btn3{
+    font-family: 'Poppins', sans-serif;
     background-color: transparent;
     color: #303030;
     border: none;
@@ -160,4 +163,13 @@ header{
 
 .btn3:hover{
     color: #FFD723;
+}
+
+.footer{
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 920px;
+
 }
